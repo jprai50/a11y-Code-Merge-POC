@@ -21,7 +21,7 @@
 			Please enter your password
 			<input type="text" name="pw"/>
 			
-			<input type="submit" value="submit">			
+			<input id="submit" type="submit" value="submit">		
 		
 		</form>
 	</body>

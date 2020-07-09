@@ -15,13 +15,16 @@
 	<body>
 		<form action="LoginServlet">
 
-			Please enter your username 		
-			<input type="text" name="un"/><br>		
+			Please enter your first name 		
+			<input type="text" name="un"/><br>
+			
+			Please enter your last name 		
+			<input type="text" name="un"/><br>
 		
 			Please enter your password
 			<input type="text" name="pw"/>
 			
-			<input id="submit" type="submit" value="submit">		
+			<input id="submit" name="submit" type="submit" value="submit">		
 		
 		</form>
 	</body>

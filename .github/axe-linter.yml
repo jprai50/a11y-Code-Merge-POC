@@ -1,1 +1,4 @@
+tags:
+  - wcag21aa
 
+can_fail_status_check: true

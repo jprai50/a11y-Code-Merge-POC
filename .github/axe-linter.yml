@@ -1,7 +1,1 @@
-tags:
-  - wcag2a
-  - wcag2aa
-  - wcag21a
-  - wcag21aa
-
-can_fail_status_check: true
+ can_fail_status_check: true

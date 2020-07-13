@@ -7,7 +7,7 @@
    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
    "http://www.w3.org/TR/html4/loose.dtd">
 
-   <html>
+   <html lang="en">
 
       <head>
          <meta http-equiv="Content-Type" 
@@ -16,12 +16,10 @@
       </head>
 	
       <body>
-
-         <center>
-            <% UserBean currentUser = (UserBean) (session.getAttribute("currentSessionUser"));%>
-			
-            Welcome <%= currentUser.getFirstName() + " " + currentUser.getLastName() %>
-         </center>
+      <main>
+		<center> <h1>Welcome <b>Jai Prakash</b></h1>
+       </center>
+        </main>
 
       </body>
 	

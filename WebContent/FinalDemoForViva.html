@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="ISO-8859-1">
+<title>Demo For Final VIVA</title>
+</head>
+<body>
+	<main>
+	
+		<a href="https://dequeuniversity.com/">
+			<img src="deque.png"  alt="deque logo"/>
+		</a>
+		
+		<h1 style="padding-left:50px"> Welcome to My website</h1>
+		
+		<form action="/Sample-Servlet-a11y-testing-module/userLogged.jsp" method="post">
+	
+				<label for="username" style="padding-left:50px">Please enter your username  </label>		
+				<input type="text" id="username" name="username" /><br><br><br>		
+			
+				<label for="password" style="padding-left:50px">Please enter your password  </label>		
+				<input type="password" id="password" name="password"/><br><br>
+				
+				 <div style="padding-left:230px;width:150px">
+					<div class="login-button" role="button" tabindex="0"  style="background-color: #000;border: none;color: white;padding: 16px 50px;text-decoration: none;margin: 2px 2px;cursor: pointer;">
+						Submit
+					</div>
+				</div> 
+				
+			<!-- <div style="padding-left:230px">
+					<input id="submit" type="submit" value="Login" style="background-color: #000;border: none;color: white;padding: 16px 50px;text-decoration: none;margin: 2px 2px;cursor: pointer;">
+				</div> -->
+			
+			</form>
+	</main>
+	<style>
+		a:focus, a img:focus, input:focus, .login-button:focus{
+		outline:width:3px;
+		outline-style: solid;
+		outline-color: #0000FF
+	}
+	
+	</style>
+	<script>
+	document.querySelector('.login-button').addEventListener('click', submitForm);
+	function submitForm(){
+		document.getElementById("loginForm").submit();
+	}
+	
+	</script>
+</body>
+</html>
